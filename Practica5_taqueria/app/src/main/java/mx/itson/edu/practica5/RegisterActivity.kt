@@ -13,7 +13,7 @@ class RegisterActivity : AppCompatActivity() {
         val button: Button = findViewById(R.id.btn_sign_in)
 
         button.setOnClickListener {
-            var intent: Intent = Intent(this,RegisterActivity::class.java)
+            var intent: Intent = Intent(this,MenuActivity::class.java)
             startActivity(intent)
         }
     }
